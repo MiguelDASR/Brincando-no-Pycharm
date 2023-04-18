@@ -1,0 +1,11 @@
+n = input('Digite algo:')
+print('O tipo primitivo desse valor é', type(n))
+print('Só tem espaços?', n.isspace())
+print('É um número?', n.isnumeric())
+print('É alfabetico?',n.isalpha())
+print('É alfanumerico', n.isalnum())
+print('Está em maiúsculas?', n.isupper())
+print('Está em minúsculas?', n.islower())
+print('Está capitalizado?', n.istitle())
+#print('Quando esta em maiusculo e  minusculo é capitalizado')
+#O N É O OBJETO POIS TEM CARACTERISTICAS E REALIZA FUNCIONALIDADES
